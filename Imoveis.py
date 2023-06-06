@@ -3,6 +3,7 @@
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
+
 def imoveis():
     URL = 'https://www.vivareal.com.br/aluguel/parana/londrina/bairros/centro/apartamento_residencial/'
     page = requests.get(URL)
