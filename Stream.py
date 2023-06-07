@@ -4,4 +4,5 @@ import streamlit as st
 click_button = st.button("CalcularImoveis")
 
 if click_button:
-    st.dataframe(imoveis())
+    data = imoveis()
+    st.dataframe(data)
